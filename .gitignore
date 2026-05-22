@@ -1,0 +1,51 @@
+# compiled output
+dist/
+build/
+out/
+
+# dependencies
+node_modules/
+
+# logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# tests
+coverage/
+.nyc_output/
+
+# IDEs
+.idea/
+*.sublime-workspace
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# temp files
+.temp/
+.tmp/
+
+# runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# reports
+report.*.json
